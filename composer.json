@@ -1,0 +1,21 @@
+{
+    "name": "prawee/yii2-uploadify",
+    "description": "Manage Yii2 Upload Image & File",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prawee Wongsa",
+            "email": "konkeanweb@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "prawee\\uploadify\\": ""
+        }
+    }
+}
