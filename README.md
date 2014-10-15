@@ -28,4 +28,13 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \prawee\uploadify\Uploadify::widget(); ?>```
+<?php
+use prawee\uploadify\Uploadify;
+
+echo Uploadify::widget([
+    'options'=>[
+    ]
+]); 
+
+?>
+```
